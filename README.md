@@ -102,6 +102,4 @@ What I Learned
 
 This project strengthened my skills in statistical analysis, data preparation, machine-learning evaluation and communicating findings from complex datasets. It also highlighted the importance of identifying data leakage and testing models on data from a different period.
 
-Author
-
-Gbenga Shokunbi · LinkedIn · GitHub
+**Gbenga Shokunbi** · [LinkedIn](https://www.linkedin.com/in/gbenga-shokunbi-25349994) · [GitHub](https://github.com/shoks96)

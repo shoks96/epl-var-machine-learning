@@ -4,7 +4,6 @@ An MSc Applied Data Science project exploring how Premier League match statistic
 
 **Author:** Gbenga Shokunbi · **University:** University of Essex
 
-![Model comparison](model_comparison.png)
 
 ## Project at a glance
 

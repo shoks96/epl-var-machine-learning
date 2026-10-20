@@ -60,7 +60,7 @@ Models were trained on pre-VAR matches and evaluated on post-VAR matches, to tes
 | MLP | 52.16% | 0.508 | 49.10% |
 | Decision Tree | 46.18% | 0.468 | 42.34% |
 
-![Model comparison](results/model_comparison.png)
+![Model comparison](model_comparison.png)
 
 The DNN was the most accurate model, but only about one percentage point ahead of Logistic Regression, so a simple linear model performs almost as well on these features.
 
@@ -82,7 +82,7 @@ The DNN was the most accurate model, but only about one percentage point ahead o
 | Home fouls | 11.486 | 10.678 | 0.930 | Yes |
 | Away fouls | 12.058 | 10.835 | 0.899 | Yes |
 
-![Match statistics before and after VAR](results/match_statistics_pre_vs_post_var.png)
+![Match statistics before and after VAR](match_statistics_pre_vs_post_var.png)
 
 Match outcomes shifted from 46.5% home wins, 28.3% away wins and 25.2% draws pre-VAR to 43.7%, 33.0% and 23.3% post-VAR.
 
@@ -93,12 +93,12 @@ Match outcomes shifted from 46.5% home wins, 28.3% away wins and 25.2% draws pre
 - **Shots on target were the most influential features** in the SHAP analysis (home shots on target 0.083, away shots on target 0.065 mean |SHAP|), well ahead of shots, corners, fouls and cards.
 - SHAP values were computed on a 20-tree Random Forest using a 200-match post-VAR sample, so they describe that model rather than the DNN.
 
-![SHAP feature importance](results/shap_feature_importance.png)
+![SHAP feature importance](shap_feature_importance.png)
 
 ## Repository Contents
 
 - `VAR_Dissertation_Analysis_Complete.ipynb`: full analysis notebook
-- `results/`: exported charts used in this README
+- PNG files: charts used in this README.
 - `requirements.txt`: Python dependencies
 
 ## Tools and Technologies
